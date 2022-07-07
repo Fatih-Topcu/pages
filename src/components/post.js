@@ -174,7 +174,7 @@ const Post = ({ id }) => {
               control={TextArea}
               label="Your Comment"
               name="content"
-              placeholder="Your comment..."
+              placeholder="Your comment... (comment will not be saved since it is disabled)"
               value={content}
               onChange={handleChange}
             />
