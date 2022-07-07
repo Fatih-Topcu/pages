@@ -51,6 +51,7 @@ const Posts = () => {
       <Container style={{ marginTop: "2rem" }}>
         <Header as="h2" icon textAlign="center">
           <Header.Content as="h2">Posts</Header.Content>
+          <Header.Content as="h5">I disabled new Post and new comment functionalities intentionally.</Header.Content>
           <Icon name="newspaper outline" circular />
         </Header>
         <Link to={`/add`}>
