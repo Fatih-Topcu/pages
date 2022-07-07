@@ -92,7 +92,7 @@ class Add extends React.Component {
         >
           <Header icon>
             <Icon name="check circle" />
-            Post submitted
+            Post submitted (disabled post saving intentionally)
           </Header>
 
           <Modal.Actions>
